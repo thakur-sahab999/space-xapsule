@@ -12,7 +12,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import Image from "next/image";
 
 const CapsuleDialog = ({ open, setOpen, handleClose, capsule }) => {
-  console.log(capsule);
+  // console.log(capsule);
   return (
     <div>
       <Dialog
