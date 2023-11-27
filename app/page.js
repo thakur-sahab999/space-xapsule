@@ -1,4 +1,4 @@
-import CapsuleComponent from "@/Components/CapsuleComponent";
+  import CapsuleComponent from "@/Components/CapsuleComponent";
 import Image from "next/image";
 
 export default async function Home() {
