@@ -4,7 +4,7 @@ async function fetchDelay(apiUrl) {
   return response;
 }
 export async function getAPIData(queryString) {
-  console.log("queryString", queryString);
+  // console.log("queryString", queryString);
   let apiUrl;
   if (queryString === "") {
     apiUrl = "https://api.spacexdata.com/v3/capsules";
