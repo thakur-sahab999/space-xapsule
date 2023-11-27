@@ -5,7 +5,7 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen w-screen flex-col items-center justify-between">
       <section className=" w-full  text-gray-100">
-        <div class="container w-full flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+        <div class="container w-full flex flex-col-reverse justify-center  mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
           <div class="flex flex-col justify-start p-6 text-left rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <h1 class="text-5xl font-bold leading-none sm:text-6xl">
               <span class="text-primary-yellow">Elevating Humanity</span>{" "}
@@ -33,13 +33,13 @@ export default async function Home() {
               </a>
             </div>
           </div>
-          <div class="flex items-center lg:flex-grow justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+          <div class="flex items-center lg:flex-grow justify-center lg:p-6  lg:mt-0 h-80 sm:h-80 lg:h-[560px] xl:h-112 2xl:h-128">
             <Image
               src="/assets/spacex-6SbFGnQTE8s-unsplash.jpg"
               alt="Space Xapsule banner"
               width={1500}
               height={1500}
-              className="h-full w-full rounded-md object-fill "
+              className="h-full w-full lg:rounded-md object-fill "
             />
           </div>
         </div>
